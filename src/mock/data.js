@@ -10,8 +10,8 @@ export const headData = {
 // HERO DATA
 export const heroData = {
   title: '',
-  name: '',
-  subtitle: '',
+  name: 'Nirjhar Paul',
+  subtitle: 'Web Developer',
   cta: '',
 };
 
@@ -28,7 +28,7 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'project01.jpg',
     title: '',
     info: '',
     info2: '',
@@ -37,7 +37,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'project02.jpg',
     title: '',
     info: '',
     info2: '',
@@ -46,7 +46,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'project03.jpg',
     title: '',
     info: '',
     info2: '',
@@ -72,7 +72,7 @@ export const footerData = {
     },
     {
       id: nanoid(),
-      name: 'codepen',
+      name: 'instagram',
       url: '',
     },
     {
@@ -88,7 +88,4 @@ export const footerData = {
   ],
 };
 
-// Github start/fork buttons
-export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
-};
+
